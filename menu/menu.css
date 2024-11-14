@@ -1,0 +1,232 @@
+*{
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.header_left > img{
+    width:60px;
+    height: 60px;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    text-transform:uppercase;
+}
+.header_center{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.header_center a{
+    text-transform: capitalize;
+    text-decoration:none;
+    color:black;
+    font-size: 20px;
+
+}
+.header_center:hover{
+    text-decoration: underline;
+    color: crimson;
+    
+}
+.header_right{
+    align-items: center;
+    justify-content: center;
+}
+.header_right > img{
+    width:90px;
+    height: 60px;
+}
+/* #fblogo{
+    width:60px;
+    height: 55px;
+} */
+.dishes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.dish-1,.dish-2,.dish-3,.dish-4,.dish-5,.dish-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px 30px;
+    width:350px;
+    height: 400px;
+    /* border:1px solid black; */
+}
+.dish-1 > img,.dish-2 > img,.dish-3 > img,.dish-4 > img,.dish-5 > img,.dish-6 > img{
+    height:300px;
+    width:100%;
+   
+}
+.dishes a{
+    text-decoration: none;
+    color:#CA7373;
+    
+}
+.dishes h2:hover{
+    text-decoration: underline;
+}
+.view{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size:20px;
+}
+.right-arrow{
+    width:30px;
+    
+}
+
+
+.welcome{
+    display: flex;    
+    /* border:1px solid black; */
+    width:100%;
+    background-color:#f0f0f0;
+    margin-top: 100px;
+}
+.left > img{
+    padding:60px;
+    width:80%;
+    height:100%;
+    
+}
+.right{
+    /* width:100%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px;
+}
+.right p{
+    color: #85714e;
+    background-color:#ebe6dd;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.right > span{
+    font-size:22px;
+}
+button{
+    padding:10px;
+    font-size: 25px;
+    color:white;
+    background-color: #493628;
+    border-radius: 5px;
+    text-align: center;
+}
+.cate-1{
+    color: #493628;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ebe6dd;
+    margin-top: 0px;
+    padding:8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.categories{
+    height: 800px;
+    /* display: flex; */
+    /* flex-direction: row; */
+
+}
+.cate-1{
+    width:100%;
+}
+.cate-2{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cate-2_1  > img,.cate-2_2  > img,.cate-2_3  > img{
+    width: 100%;
+    height: 100%;
+   
+}
+.cate-2_1>img:hover, .cate-2_2>img:hover, .cate-2_3>img:hover{ 
+    background-image:lightgray;
+    opacity: 0.5;
+
+}
+.cate-2_1,.cate-2_2,.cate-2_3{
+    width:300px;
+    height:400px;
+    position: relative;
+}
+.cate-2_1 > p,.cate-2_2 > p,.cate-2_3 > p {
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    width:120px;
+    text-align: center;
+    padding:20px;
+    color: white;
+    background-color: black;
+
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+    row-gap:150px;
+    height: auto;
+}
+.container h2:hover{
+    text-decoration: underline;
+}
+
+.popular{
+    margin-top:300px;
+}
+.contact{
+    display: flex;
+    margin-top:200px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#f0f0f0;
+}
+.contact img{
+    width:400px;
+    height: 90%;
+}
+.contact > div h1{
+    color:#493628;
+    background-color: #ebe6dd;
+    text-align: center;
+
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height:20%;
+    background-color: #ebe6dd;
+    
+}
+    
+
+
+
